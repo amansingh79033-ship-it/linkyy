@@ -132,7 +132,7 @@ const App = () => {
 
     const pollAdminInterval = setInterval(async () => {
       try {
-        const res = await fetch(`/api/check-messages?codename=${encodeURIComponent(codename)}`);
+        const res = await fetch(`/api/admin-messages?codename=${encodeURIComponent(codename)}`);
         if (res.ok) {
           const data = await res.json();
           if (data.frozen !== isFrozen) {

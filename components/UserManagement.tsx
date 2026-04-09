@@ -25,7 +25,7 @@ export default function UserManagement() {
   const fetchUsers = async () => {
     try {
       setLoading(true);
-      const res = await fetch('/api/users');
+      const res = await fetch('/api/admin-data');
       if (res.ok) {
         const data = await res.json();
         setUsers(data);
@@ -65,7 +65,7 @@ export default function UserManagement() {
     setHistoryLoading(true);
 
     try {
-      const res = await fetch(`/api/user-history?codename=${encodeURIComponent(codename)}`);
+      const res = await fetch(`/api/user-info?codename=${encodeURIComponent(codename)}`);
       if (res.ok) setHistoryData(await res.json());
     } catch (e) {
       console.error(e);
@@ -81,7 +81,7 @@ export default function UserManagement() {
     setDetailsLoading(true);
 
     try {
-      const res = await fetch(`/api/user-details?codename=${encodeURIComponent(codename)}`);
+      const res = await fetch(`/api/user-info?codename=${encodeURIComponent(codename)}`);
       if (res.ok) {
         const data = await res.json();
         setUserDetailsData(data);
@@ -121,7 +121,7 @@ export default function UserManagement() {
     setMessageStatus('sending');
 
     try {
-      const res = await fetch('/api/send-message', {
+      const res = await fetch('/api/admin-messages', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

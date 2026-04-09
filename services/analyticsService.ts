@@ -107,7 +107,7 @@ export const getUserActivities = (): UserActivity[] => {
 export const getPlatformMetrics = async () => {
   try {
     const metricsRes = await fetch('/api/stats');
-    const workroomsRes = await fetch('/api/admin-workrooms');
+    const workroomsRes = await fetch('/api/admin-data?type=workrooms');
     
     let metrics = {
       totalUsers: 0,
@@ -192,7 +192,7 @@ export const getUserStatistics = async () => {
  */
 export const getUserBehaviorAnalytics = async (): Promise<any[]> => {
   try {
-    const res = await fetch('/api/users');
+    const res = await fetch('/api/admin-data');
     if (res.ok) {
       const users = await res.json();
       console.log('✅ User Behavior Analytics loaded:', users.length, 'users');
