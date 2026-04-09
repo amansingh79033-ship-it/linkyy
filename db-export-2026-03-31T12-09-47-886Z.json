@@ -1,0 +1,328 @@
+{
+  "exportedAt": "2026-03-31T12:09:47.709Z",
+  "source": "localhost:8000",
+  "version": "2.0.0",
+  "data": {
+    "users": [
+      {
+        "codename": "manual_test_user",
+        "status": "active",
+        "last_active": "2026-03-30T22:10:28.339Z",
+        "created_at": "2026-03-30T22:10:28.339Z"
+      },
+      {
+        "codename": "admin",
+        "status": "active",
+        "last_active": "2026-03-31T11:56:29.263Z",
+        "created_at": "2026-03-31T03:12:09.979Z"
+      },
+      {
+        "codename": "amcat",
+        "status": "active",
+        "last_active": "2026-03-31T11:56:30.630Z",
+        "created_at": "2026-03-31T03:12:23.467Z"
+      },
+      {
+        "codename": "bro",
+        "status": "active",
+        "last_active": "2026-03-31T06:23:45.999Z",
+        "created_at": "2026-03-31T06:01:19.874Z"
+      },
+      {
+        "codename": "broda",
+        "status": "active",
+        "last_active": "2026-03-31T06:22:44.601Z",
+        "created_at": "2026-03-31T06:09:08.241Z"
+      }
+    ],
+    "workrooms": [
+      {
+        "codename": "amcat",
+        "created_at": "2026-03-31T03:12:20.335Z"
+      },
+      {
+        "codename": "bro",
+        "created_at": "2026-03-31T06:01:19.116Z"
+      },
+      {
+        "codename": "broda",
+        "created_at": "2026-03-31T06:09:07.453Z"
+      }
+    ],
+    "activityLogs": [
+      {
+        "id": "mne1jpxqwv0pcdyosrj",
+        "codename": "admin",
+        "action": "logout",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:12:10.005Z"
+      },
+      {
+        "id": "mne1k0c312f659ekwxtg",
+        "codename": "amcat",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:12:23.477Z"
+      },
+      {
+        "id": "mne1k0m9w6ue7o4rioh",
+        "codename": "admin",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:12:23.842Z"
+      },
+      {
+        "id": "mne1k23yo1wgetyy3c9",
+        "codename": "amcat",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:12:25.776Z"
+      },
+      {
+        "id": "mne1scc8h4o0uomzehv",
+        "codename": "admin",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:18:52.282Z"
+      },
+      {
+        "id": "mne1scdgsf7k61gr26f",
+        "codename": "admin",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:18:52.326Z"
+      },
+      {
+        "id": "mne1se00shvker1o95p",
+        "codename": "amcat",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:18:54.434Z"
+      },
+      {
+        "id": "mne1se1g7ia3ub4c6xk",
+        "codename": "amcat",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:18:54.485Z"
+      },
+      {
+        "id": "mne1u7pic7zpj6v0mj6",
+        "codename": "admin",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:20:19.592Z"
+      },
+      {
+        "id": "mne1u8zus0l20k95m",
+        "codename": "amcat",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:20:21.259Z"
+      },
+      {
+        "id": "mne20lsb68x8atcyb28",
+        "codename": "admin",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:25:17.774Z"
+      },
+      {
+        "id": "mne20mdllt25futn8pb",
+        "codename": "admin",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:25:18.539Z"
+      },
+      {
+        "id": "mne20mzj8lnkmwj83fd",
+        "codename": "amcat",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:25:19.327Z"
+      },
+      {
+        "id": "mne20nhvirbuu6ch8b",
+        "codename": "amcat",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:25:19.997Z"
+      },
+      {
+        "id": "mne2hpi618yu0ydvwy8",
+        "codename": "admin",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:38:35.743Z"
+      },
+      {
+        "id": "mne2hpln3cu9xjwcse9",
+        "codename": "admin",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:38:35.867Z"
+      },
+      {
+        "id": "mne2hqr2c3zf9ju0dwq",
+        "codename": "amcat",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:38:37.359Z"
+      },
+      {
+        "id": "mne2hqwm6g83c9mff3q",
+        "codename": "amcat",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:38:37.562Z"
+      },
+      {
+        "id": "mne2i7ak0fulydw4ns5",
+        "codename": "admin",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:38:58.797Z"
+      },
+      {
+        "id": "mne2i7cymklstguxml8",
+        "codename": "admin",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:38:58.884Z"
+      },
+      {
+        "id": "mne2i8ioee61ye0wvwg",
+        "codename": "amcat",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:39:00.385Z"
+      },
+      {
+        "id": "mne2i8jn02zbqn69l0h6",
+        "codename": "amcat",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T03:39:00.421Z"
+      },
+      {
+        "id": "mne7l9mv15ckxg9hy5v",
+        "codename": "bro",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T06:01:19.880Z"
+      },
+      {
+        "id": "mne7l9n77ua9l77mt1l",
+        "codename": "bro",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T06:01:19.892Z"
+      },
+      {
+        "id": "mne7up59563ahsrqqei",
+        "codename": "admin",
+        "action": "logout",
+        "dwell_score": null,
+        "created_at": "2026-03-31T06:08:39.887Z"
+      },
+      {
+        "id": "mne7vb0eiautzh7qi",
+        "codename": "admin",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T06:09:08.222Z"
+      },
+      {
+        "id": "mne7vb0thga9m8s1bbw",
+        "codename": "broda",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T06:09:08.245Z"
+      },
+      {
+        "id": "mne7vbimwq0ryd5rsar",
+        "codename": "broda",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T06:09:08.893Z"
+      },
+      {
+        "id": "mne8ciuln0ddtegck6",
+        "codename": "admin",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T06:22:31.534Z"
+      },
+      {
+        "id": "mne8ciuy0ne17gvadvo8",
+        "codename": "admin",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T06:22:31.550Z"
+      },
+      {
+        "id": "mne8cjlsx4ikz1huy2",
+        "codename": "broda",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T06:22:32.516Z"
+      },
+      {
+        "id": "mne8cjmoiu4drb05csj",
+        "codename": "broda",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T06:22:32.546Z"
+      },
+      {
+        "id": "mne8csxpqxzrpmupy9",
+        "codename": "broda",
+        "action": "logout",
+        "dwell_score": null,
+        "created_at": "2026-03-31T06:22:44.607Z"
+      },
+      {
+        "id": "mne8e40pynqxwcrbggo",
+        "codename": "bro",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T06:23:45.630Z"
+      },
+      {
+        "id": "mne8e4aveqst99bxoj7",
+        "codename": "bro",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T06:23:46.004Z"
+      },
+      {
+        "id": "mneka02oxa6e450pw27",
+        "codename": "admin",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T11:56:29.281Z"
+      },
+      {
+        "id": "mneka02ponriixnntj",
+        "codename": "admin",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T11:56:29.281Z"
+      },
+      {
+        "id": "mneka13xfzp7aooigcb",
+        "codename": "amcat",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T11:56:30.624Z"
+      },
+      {
+        "id": "mneka14atlgatk49rg",
+        "codename": "amcat",
+        "action": "login",
+        "dwell_score": null,
+        "created_at": "2026-03-31T11:56:30.636Z"
+      }
+    ]
+  }
+}
